@@ -3,7 +3,7 @@
     class="
       bg-black
       h-screen
-      2xl_h-mid
+      3xl_h-screen
       relative
       flex
       items-center

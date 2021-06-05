@@ -18,7 +18,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       black: '#151418',
-      white: '#FBFBFF'
+      white: '#FBFBFF',
     },
     spacing: {
       px: '1px',
@@ -56,6 +56,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      100: '30rem',
     },
     animation: {
       none: 'none',
@@ -329,7 +330,7 @@ module.exports = {
       '5/6': '83.333333%',
       full: '100%',
       screen: '100vh',
-      mid: '50vh'
+      mid: '50vh',
     }),
     inset: (theme, { negative }) => ({
       auto: 'auto',

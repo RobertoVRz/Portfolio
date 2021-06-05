@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Skills />
+    <Work />
   </div>
 </template>
 

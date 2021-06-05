@@ -1,20 +1,14 @@
 <template>
   <div>
+    <Navbar />
     <Nuxt />
   </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

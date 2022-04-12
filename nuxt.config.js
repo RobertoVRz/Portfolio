@@ -7,11 +7,52 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Portfolio',
+    title: 'RobertoVRz | Mobile & Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil.Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías.Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
+      },
+      { name: 'google', value: 'notranslate' },
+      { 'http-quiv': 'Content-Language', content: 'es_MX' },
+      { name: 'theme-color', content: '#000A3F' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://www.robertovrz-portfolio.netlify.app/',
+      },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'RobertoVRz' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'RobertoVRz | Mobile & Web Developer',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil.Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías.Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://www.robertovrz-portfolio.netlify.app/icon.png',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content:
+          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil.Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías.Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
+      },
+      {
+        name: 'theme-color',
+        content: '#000A3F',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },

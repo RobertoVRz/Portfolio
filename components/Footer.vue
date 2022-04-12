@@ -28,7 +28,7 @@
 <style lang="scss" scoped>
 .footer {
   background: #000a3f;
-  border-radius: 30px 30px 0 0;
+  border-radius: 10px 10px 0 0;
   padding: 5rem 0rem;
   @include screen(tablet) {
     border-radius: 10px 10px 0 0;

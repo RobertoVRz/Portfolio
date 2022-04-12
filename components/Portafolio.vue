@@ -26,6 +26,11 @@ import pintolux from '@/assets/logosWork/pintolux.svg'
 import artex from '@/assets/logosWork/artex.svg'
 import bicla from '@/assets/logosWork/bicla.svg'
 import zuntra from '@/assets/logosWork/zuntra.svg'
+import gii from '@/assets/logosWork/gii.png'
+import rsvp from '@/assets/logosWork/rsvp.svg'
+import coordex from '@/assets/logosWork/coordex.svg'
+import cje from '@/assets/logosWork/cje.svg'
+import fg from '@/assets/logosWork/fgAbogados.png'
 import hall from '@/assets/logosWork/hall.svg'
 
 export default {
@@ -59,6 +64,34 @@ export default {
           descripcion: '',
           estilo: 'viboxE',
           link: 'https://empresas.vibox.mx/',
+        },
+        {
+          nombre: 'Coordex',
+          logo: coordex,
+          descripcion: '',
+          estilo: 'coordex',
+          link: 'https://www.coordexcentrocambiario.com/',
+        },
+        {
+          nombre: 'Gii Studio',
+          logo: gii,
+          descripcion: '',
+          estilo: 'gii',
+          link: 'https://giistudio.mx/',
+        },
+        {
+          nombre: 'CJE ABogados',
+          logo: cje,
+          descripcion: '',
+          estilo: 'cje',
+          link: 'https://www.cjegarciayasociados.com/',
+        },
+        {
+          nombre: 'F&G ABogados',
+          logo: fg,
+          descripcion: '',
+          estilo: 'fg',
+          link: 'https://www.fgabogadosfiscalistas.com/',
         },
         {
           nombre: 'Agua de Vida',
@@ -147,6 +180,30 @@ export default {
   border: 1px solid #6a3bf7;
 }
 
+.coordex {
+  background: #fff;
+  border: 1px solid #2049df;
+  padding: 1rem;
+}
+
+.gii {
+  background: #000;
+  border: 1px solid #000;
+  padding: 2rem;
+}
+
+.cje {
+  background: #041c2c;
+  border: 1px solid #041c2c;
+  padding: 5rem;
+}
+
+.fg {
+  background: #000;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
 .squdera {
   background: #fff;
   border: 1px solid #d67736;
@@ -197,7 +254,7 @@ export default {
     font-weight: 500;
     font-size: 48px;
     line-height: 114px;
-    color: #000A3F;
+    color: #000a3f;
     @include screen(tablet) {
       font-size: 96px;
     }

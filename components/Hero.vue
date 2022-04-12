@@ -14,7 +14,7 @@
   >
     <div class="flex flex-col items-center md_items-start md_flex-row">
       <div class="px-5 z-10">
-        <h1 class="text-white text-center text-4xl md_text-8xl mb-10 md_mb-14">
+        <h1 class="text-white text-center text-6xl md_text-8xl mb-10 md_mb-14">
           Hola, soy Roberto
         </h1>
         <p class="hero__text text-white text-xl md_text-3xl text-center md_text-left">
@@ -28,7 +28,7 @@
       </div>
 
       <img
-        class="w-62 md_w-96 z-10 my-10 md_my-0 mx-10"
+        class="w-60 md_w-96 z-10 my-10 md_my-0 mx-10"
         src="@/assets/AvatarBig.png"
       />
     </div>

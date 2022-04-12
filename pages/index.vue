@@ -1,8 +1,9 @@
 <template>
   <div>
     <Hero />
-    <Skills />
-    <Work />
+    <Tecnologias />
+    <Servicios />
+    <Portafolio />
   </div>
 </template>
 

@@ -23,7 +23,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://www.robertovrz-portfolio.netlify.app/',
+        content: 'https://robertovrz-portfolio.netlify.app/',
       },
       { hid: 'og:site_name', property: 'og:site_name', content: 'RobertoVRz' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
@@ -41,7 +41,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://www.robertovrz-portfolio.netlify.app/icon.png',
+        content: 'https://robertovrz-portfolio.netlify.app/icon.png',
       },
       {
         hid: 'twitter:card',

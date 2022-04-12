@@ -15,7 +15,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil.Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías.Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
+          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil. Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías. Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
       },
       { name: 'google', value: 'notranslate' },
       { 'http-quiv': 'Content-Language', content: 'es_MX' },
@@ -36,7 +36,7 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil.Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías.Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
+          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil. Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías. Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
       },
       {
         hid: 'og:image',
@@ -47,7 +47,7 @@ export default {
         hid: 'twitter:card',
         name: 'twitter:card',
         content:
-          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil.Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías.Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
+          'Soy un Ingeniero en Software con más de 5 años de experiencia en desarrollo web y móvil. Poseo una gran versatilidad para aprender y desarrollar con diferentes tecnologías. Tengo experiencia trabajando en equipo y dirección de proyectos de software.',
       },
       {
         name: 'theme-color',

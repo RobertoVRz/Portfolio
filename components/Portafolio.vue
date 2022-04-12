@@ -194,10 +194,10 @@ export default {
   }
   &__title {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 48px;
     line-height: 114px;
-    color: #3a1b69;
+    color: #000A3F;
     @include screen(tablet) {
       font-size: 96px;
     }

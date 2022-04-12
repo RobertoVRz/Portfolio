@@ -8,7 +8,7 @@
         :key="index"
       >
         <h2 class="services__servicio__title mb-0">{{ servicio.nombre }}</h2>
-        <hr v-if="true" class="my-2" />
+        <hr v-if="true" class="text-white my-2" />
         <p
           class="services__servicio__text mb-5"
           v-for="(tipo, index) in servicio.tipos"
@@ -66,15 +66,15 @@ export default {
   height: 100%;
   width: 100vw;
   padding: 8rem 2rem;
-  background: #3a1b69;
-  border-radius: 40px;
+  background: #000A3F;
+  //border-radius: 40px;
   @include screen(tablet) {
-    border-radius: 15%;
+    //border-radius: 15%;
   }
   &__title {
     font-size: 48px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 114px;
     letter-spacing: -0.015em;
     text-align: center;
@@ -86,16 +86,16 @@ export default {
   &__servicio {
     padding: 2rem;
     margin: 1rem 0rem;
-    border: 1px solid white;
+    //border: 1px solid white;
     border-radius: 25px;
     @include screen(tablet) {
       min-width: 400px;
-      margin: 2rem;
+      margin: 1rem;
     }
     &__title {
       font-size: 36px;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 500;
       line-height: 43px;
       letter-spacing: -0.015em;
       text-align: left;

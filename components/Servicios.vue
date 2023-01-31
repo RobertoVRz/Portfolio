@@ -66,7 +66,7 @@ export default {
   height: 100%;
   width: 100vw;
   padding: 8rem 2rem;
-  background: #000A3F;
+  background: #000a3f;
   //border-radius: 40px;
   @include screen(tablet) {
     //border-radius: 15%;
@@ -78,7 +78,10 @@ export default {
     line-height: 114px;
     letter-spacing: -0.015em;
     text-align: center;
-    color: white;
+    background: linear-gradient(0deg, #2d27ff, #ff0a6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     @include screen(tablet) {
       font-size: 96px;
     }
@@ -99,7 +102,10 @@ export default {
       line-height: 43px;
       letter-spacing: -0.015em;
       text-align: left;
-      color: #ffffff;
+      background: linear-gradient(0deg, #ff0a6c, #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
     &__text {
       font-size: 24px;

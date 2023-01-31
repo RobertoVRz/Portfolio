@@ -14,10 +14,10 @@
   >
     <div class="flex flex-col items-center md_items-start md_flex-row">
       <div class="px-5 z-10">
-        <h1 class="text-white text-center text-6xl md_text-8xl mb-10 md_mb-14">
+        <h1 class="name font-bold text-center text-6xl md_text-8xl mb-10 md_mb-14">
           Hola, soy Roberto
         </h1>
-        <p class="hero__text text-white text-xl md_text-3xl text-center md_text-left">
+        <p class="hero__text text-white text-xl font-medium md_text-3xl text-center md_text-left">
           Soy un Ingeniero en Software con más de 5 años de experiencia en
           desarrollo web y móvil.<br /><br />
           Poseo una gran versatilidad para aprender y desarrollar con diferentes
@@ -56,6 +56,12 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+.name {
+  background: linear-gradient(0deg, #2d27ff, #ff0a6c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .hero {
   &__text {
 

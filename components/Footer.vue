@@ -1,6 +1,6 @@
 <template>
   <footer class="footer flex flex-col justify-center items-center">
-    <h1 class="footer__title text-white mb-10">Contacto</h1>
+    <h1 class="footer__title font-bold mb-10">Contacto</h1>
     <div class="flex flex-col md_flex-row items-center justify-center">
       <div class="flex items-center justify-center p-5">
         <img class="mr-5" src="@/assets/icons/mail.svg" alt="" />
@@ -35,6 +35,10 @@
   }
   &__title {
     font-size: 4rem;
+    background: linear-gradient(0deg, #2d27ff, #ff0a6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
   &__texto {
     font-size: 1.5rem;

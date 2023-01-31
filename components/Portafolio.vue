@@ -1,6 +1,6 @@
 <template>
   <section class="port my-10">
-    <h1 class="port__title text-center mb-10">Portafolio</h1>
+    <h1 class="port__title font-bold text-center mb-10">Portafolio</h1>
     <div class="port__container flex flex-wrap justify-center">
       <div
         class="port__card flex justify-center items-center m-5 md:m-10"
@@ -27,11 +27,14 @@ import artex from '@/assets/logosWork/artex.svg'
 import bicla from '@/assets/logosWork/bicla.svg'
 import zuntra from '@/assets/logosWork/zuntra.svg'
 import gii from '@/assets/logosWork/gii.png'
-import rsvp from '@/assets/logosWork/rsvp.svg'
+import rsvp from '@/assets/logosWork/rsvp.png'
+import jazzatlan from '@/assets/logosWork/jazzatlan.svg'
 import coordex from '@/assets/logosWork/coordex.svg'
 import cje from '@/assets/logosWork/cje.svg'
 import fg from '@/assets/logosWork/fgAbogados.png'
 import hall from '@/assets/logosWork/hall.svg'
+import laesposa from '@/assets/logosWork/laesposa.png'
+import hugo from '@/assets/logosWork/hugo.svg'
 
 export default {
   data() {
@@ -80,6 +83,41 @@ export default {
           link: 'https://giistudio.mx/',
         },
         {
+          nombre: 'Dipo',
+          logo: dipo,
+          descripcion: '',
+          estilo: 'dipo',
+          link: 'https://www.dipoviajes.com/',
+        },
+        {
+          nombre: 'Jazzatlan',
+          logo: jazzatlan,
+          descripcion: '',
+          estilo: 'jazzatlan',
+          link: 'https://boletera.jazzatlan.club/',
+        },
+        {
+          nombre: 'Dr. Hugo',
+          logo: hugo,
+          descripcion: '',
+          estilo: 'hugo',
+          link: 'https://drhugocabrera.com/',
+        },
+        {
+          nombre: 'RSVP',
+          logo: rsvp,
+          descripcion: '',
+          estilo: 'rsvp',
+          link: 'https://www.rsvpboutique.com.mx/',
+        },
+        {
+          nombre: 'La Esposa',
+          logo: laesposa,
+          descripcion: '',
+          estilo: 'laesposa',
+          link: 'https://laesposa.mx/',
+        },
+        {
           nombre: 'CJE ABogados',
           logo: cje,
           descripcion: '',
@@ -94,25 +132,11 @@ export default {
           link: 'https://www.fgabogadosfiscalistas.com/',
         },
         {
-          nombre: 'Agua de Vida',
-          logo: agua,
-          descripcion: '',
-          estilo: 'agua',
-          link: 'https://aguadevida.netlify.app/',
-        },
-        {
           nombre: 'Squdera',
           logo: squdera,
           descripcion: '',
           estilo: 'squdera',
           link: 'https://squdera.netlify.app/',
-        },
-        {
-          nombre: 'Dipo',
-          logo: dipo,
-          descripcion: '',
-          estilo: 'dipo',
-          link: 'https://www.dipoviajes.com/',
         },
         {
           nombre: 'Pintolux',
@@ -127,6 +151,13 @@ export default {
           descripcion: '',
           estilo: 'artex',
           link: 'https://artexlatam.com/',
+        },
+        {
+          nombre: 'Agua de Vida',
+          logo: agua,
+          descripcion: '',
+          estilo: 'agua',
+          link: 'https://aguadevida.netlify.app/',
         },
         {
           nombre: 'Bicla',
@@ -219,9 +250,39 @@ export default {
   border: 1px solid #ff1616;
 }
 
+.jazzatlan {
+  background: #262729;
+  border: 1px solid #262729;
+
+  img {
+    width: 80%;
+  }
+}
+
+.rsvp {
+  background: #e5167c;
+  border: 1px solid #e5167c;
+  img {
+    width: 80%;
+  }
+}
+
 .pintolux {
   background: #0b2667;
   border: 1px solid #0b2667;
+}
+
+.laesposa {
+  background: #aacad1;
+  border: 1px solid #aacad1;
+  img {
+    width: 80%;
+  }
+}
+
+.hugo {
+  background: #eb515b;
+  border: 1px solid #eb515b;
 }
 
 .artex {
@@ -254,7 +315,10 @@ export default {
     font-weight: 500;
     font-size: 48px;
     line-height: 114px;
-    color: #000a3f;
+    background: linear-gradient(0deg, #2d27ff, #ff0a6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     @include screen(tablet) {
       font-size: 96px;
     }

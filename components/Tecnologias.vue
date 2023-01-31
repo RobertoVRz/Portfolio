@@ -1,6 +1,6 @@
 <template>
   <section class="tec my-10">
-    <h1 class="tec__title text-black text-center py-10">Mis skills</h1>
+    <h1 class="tec__title font-bold text-black text-center py-10">Mis skills</h1>
     <div class="w-screen flex flex-wrap justify-center items-center">
       <img
         v-for="(item, index) of tecnologias"
@@ -147,7 +147,10 @@ export default {
     font-weight: 500;
     font-size: 48px;
     line-height: 114px;
-    color: #001D69;
+    background: linear-gradient(0deg, #2d27ff, #ff0a6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     @include screen(tablet) {
       font-size: 96px;
     }

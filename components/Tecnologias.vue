@@ -1,5 +1,5 @@
 <template>
-  <section class="tec my-10">
+  <section class="tec my-10 fondo">
     <h1 class="tec__title text-black text-center py-10">Mis skills</h1>
     <div class="w-screen flex flex-wrap justify-center items-center">
       <img
@@ -141,13 +141,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.fondo {
+  background: linear-gradient(-45deg, #ee7752, #ff0a6c, #001e26, #2d27ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .tec {
   &__title {
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 114px;
-    color: #001D69;
+    color: #001d69;
     @include screen(tablet) {
       font-size: 96px;
     }

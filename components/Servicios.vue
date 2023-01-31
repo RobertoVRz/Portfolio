@@ -66,7 +66,10 @@ export default {
   height: 100%;
   width: 100vw;
   padding: 8rem 2rem;
-  background: #000A3F;
+  background: linear-gradient(-45deg, #ee7752, #ff0a6c, #001E26, #2d27ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  //background: #001E26;
   //border-radius: 40px;
   @include screen(tablet) {
     //border-radius: 15%;
@@ -79,6 +82,10 @@ export default {
     letter-spacing: -0.015em;
     text-align: center;
     color: white;
+    background: linear-gradient(270deg, #2d27ff, #ff0a6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     @include screen(tablet) {
       font-size: 96px;
     }
@@ -109,6 +116,17 @@ export default {
       letter-spacing: -0.015em;
       text-align: left;
       color: #ffffff;
+    }
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
     }
   }
 }

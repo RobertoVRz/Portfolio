@@ -19,6 +19,9 @@ module.exports = {
       current: 'currentColor',
       black: '#000A3F',
       white: '#FBFBFF',
+      blue: '#001220',
+      purple: '#2d27ff',
+      rose: '#ff0a6c',
     },
     spacing: {
       px: '1px',

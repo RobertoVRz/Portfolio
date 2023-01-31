@@ -18,12 +18,12 @@ export default {}
 
 .b {
   clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%);
-  background-color: #000A3F;
+  background-color: #001E26;
   height: 100px;
 }
 .c {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px));
-  background-color: #000A3F;
+  background-color: #001E26;
   height: 100px;
 }
 </style>

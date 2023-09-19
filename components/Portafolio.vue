@@ -35,6 +35,7 @@ import fg from '@/assets/logosWork/fgAbogados.png'
 import hall from '@/assets/logosWork/hall.svg'
 import laesposa from '@/assets/logosWork/laesposa.png'
 import hugo from '@/assets/logosWork/hugo.svg'
+import bohai from '@/assets/logosWork/bohai.svg'
 
 export default {
   data() {
@@ -74,6 +75,13 @@ export default {
           descripcion: '',
           estilo: 'coordex',
           link: 'https://www.coordexcentrocambiario.com/',
+        },
+        {
+          nombre: 'Bohai',
+          logo: bohai,
+          descripcion: '',
+          estilo: 'bohai',
+          link: 'https://bohai.com.mx/',
         },
         {
           nombre: 'Gii Studio',
@@ -215,6 +223,14 @@ export default {
   background: #fff;
   border: 1px solid #2049df;
   padding: 1rem;
+}
+
+.bohai {
+  background: #ffffff;
+  border: 1px solid #000000;
+  img {
+    width: 80%;
+  }
 }
 
 .gii {

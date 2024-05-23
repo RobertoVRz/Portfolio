@@ -36,6 +36,9 @@ import hall from '@/assets/logosWork/hall.svg'
 import laesposa from '@/assets/logosWork/laesposa.png'
 import hugo from '@/assets/logosWork/hugo.svg'
 import bohai from '@/assets/logosWork/bohai.svg'
+import bamx from '@/assets/logosWork/baamx.svg'
+import munetoys from '@/assets/logosWork/munetoys.svg'
+import tancacao from '@/assets/logosWork/tancacao.svg'
 
 export default {
   data() {
@@ -89,6 +92,27 @@ export default {
           descripcion: '',
           estilo: 'gii',
           link: 'https://giistudio.mx/',
+        },
+        {
+          nombre: "BAMX",
+          logo: bamx,
+          descripcion: '',
+          estilo: 'baamx',
+          link: 'https://baam.org.mx/',
+        },
+        {
+          nombre: 'MuñeToys',
+          logo: munetoys,
+          descripcion: '',
+          estilo: 'munetoys',
+          link: 'https://munetoys.mx/',
+        },
+        {
+          nombre: 'Tan Cacao',
+          logo: tancacao,
+          descripcion: '',
+          estilo: 'bohai',
+          link: 'https://www.tancacao.com.mx/',
         },
         {
           nombre: 'Dipo',
@@ -228,6 +252,22 @@ export default {
 .bohai {
   background: #ffffff;
   border: 1px solid #000000;
+  img {
+    width: 80%;
+  }
+}
+
+.baamx {
+  background: #ffffff;
+  border: 1px solid #E48233;
+  img {
+    width: 80%;
+  }
+}
+
+.munetoys {
+  background: #ffffff;
+  border: 1px solid #FF9141;
   img {
     width: 80%;
   }

@@ -154,7 +154,7 @@ export default {
           logo: cje,
           descripcion: '',
           estilo: 'cje',
-          link: 'https://www.cjegarciayasociados.com/',
+          link: 'https://www.cjedespachojuridico.com/',
         },
         {
           nombre: 'F&G ABogados',
@@ -168,7 +168,7 @@ export default {
           logo: squdera,
           descripcion: '',
           estilo: 'squdera',
-          link: 'https://squdera.netlify.app/',
+          link: 'https://squdera.com/',
         },
         {
           nombre: 'Pintolux',
